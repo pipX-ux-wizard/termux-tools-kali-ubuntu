@@ -11,51 +11,10 @@ files/usr/bin/
 Create ~/HOME/startup-setup.sh/bin/data/data/com.termux
 /files/usr/bin/
 
-sudo dpkg --force-architecture -i
-.deb
 
 ###############################
 
 $ termux-setup-storage
-
-Update Your Repositories with pkg update
-And pkg upgrade
-Install Git So You Can Download This
-Toolpkg install git
-Clone This Repo git clone https://github.com/pipX-ux-wizard
-/termux-tools-kali-ubuntu/pull/1
-Move To The Directory Of The Repocd
-termux-tools-kali-ubuntu
-Give The Bash File Execute Permissionschmod +x BNG.sh
-Done! Just Runbash BNG.sh
-
-###############################
-
-git clone #1
-
-Merged
-#1
-#1
-pipX-ux-wizard merged 1 commit into main from pipX-ux-wizard-patch-2.11 1 hour ago
-Conversation 1
-Commits 1
-Checks 0
-Files changed 3
-Conversation
-pipX-ux-wizard
-@pipX-ux-wizard pipX-ux-wizard commented 1 hour ago •
-gh repo clone pipX-ux-wizard/termux-tools-kali-ubuntu
-
-$ git init git remote add origin https:
-//github.com/
-pipX-ux-wizard/
-Kalispell-[$]-[#] install=✓termux
-
-Kalispell-[$]-[#] install:=✓Termux
-
-LABS-MARKER-1
-
-bash.bashrc.txt
 
 #!/data/data/com.termux/files/usr/bin/bash
 
@@ -306,21 +265,6 @@ echo -e ${GREEN}"\n[] Default password is: $RED 123qwe "
 echo -e ${GREEN}"[] Run $RED code-server $GREEN for start."
 }
 
-install_vsc() {
-clear
-setup_base
-clear
-install_zsh
-setup_omz
-install_vsc_repo
-setup_net
-install_adb
-configure_vsc
-setup_finaly
-}
-
-Main
-install_vsc
 
 /data/local/tmp
 
@@ -350,8 +294,6 @@ git clone https://github.com/Dark-Legends/Terminal-backup
 cd Terminal-backup && chmod +x
 terminal-backup 
 
-
-
 ./terminal-backup
 
 Default Port is:  8091
@@ -359,57 +301,8 @@ Default Port is:  8091
 [*] Default password is:  123qwe
 [*] Run  code-server  for start.
 
-
-
-     
-     
-     
-     
-     
-     
-     # ~/install-kali-termux
-### Custom Kali installation based on the minimal file-system of the official nethunter repositories from Offensive Security, in termux with a rooted device.
-### More functions were added than in the script provided by offensive security and I will add more when the time comes.
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/pipX-ux-wizard/Kalispell~[$]~[#] install=✓termux/install-kali-termux/raw/master/Annotation%202021-08-24%20155445.png">
-</p>
-
-
-#### Open termux and paste this code to install kali on it:
-```bash
-apt update && apt install wget -y
-wget -O install_kali https:
-//github.com/
-pipX-ux-wizard/
-Kalispell~[$]~[#] install=✓termux
-chmod +x install_kali
-./install_kali
-```#### ~/startkali.sh
-
-git clone #1
-
-Merged
-#1
-#1
-pipX-ux-wizard merged 1 commit into main from pipX-ux-wizard-patch-2.11 1 hour ago
-Conversation 1
-Commits 1
-Checks 0
-Files changed 3
-Conversation
-pipX-ux-wizard
-@pipX-ux-wizard pipX-ux-wizard commented 1 hour ago •
-gh repo clone pipX-ux-wizard/termux-tools-kali-ubuntu
-
-$ git init git remote add origin https:
-//github.com/
-pipX-ux-wizard/
-Kalispell-[$]-[#] install=✓termux
-
-
 ## NEW:
 ### Support for x86 and ARM64 and AMD64 added; now you can install kali in an Android emulator!
 
-
-~/startup-setup.chsh.zsh.sh
+sudo dpkg --force-architecture -i
+.deb
